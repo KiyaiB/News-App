@@ -1,0 +1,71 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+<!-- block styles -->
+{% block styles%} 
+<style>
+    .row{
+        margin-bottom: 4vh;
+    }
+</style>
+{{ super() }}
+<link rel="stylesheet" href="static/index.css">
+{% endblock %}
+
+<!-- block content -->
+{% block content%}
+<div class="container" style="background-color: cornsilk;">
+    <br><br><br>
+    <div>
+        <div class="text-center pt-5">
+            <span class="text-success fs-1"><strong>INTERNATIONAL NEWS</strong></span>
+        </div>
+        <br><br>
+        <h3 class="text-center d-1 pt-5 pb-5">Get your favorite news articles from different sources below.</h3>
+
+    </div>
+    <div class="row">
+        <div id="sports">
+            <div class="bg-info text-center p-1">
+                <h3>SPORTS</h3>
+            </div><br><br>
+            {{ macro.displaySourceList(sports)}}
+        </div>
+
+    </div>
+    <div class="row">
+        <div id="technology">
+            <div class="bg-info text-center p-1">
+                <h3>TECHNOLOGY</h3>
+            </div><br><br>
+            {{ macro.displaySourceList(technology)}}
+        </div>
+    </div>
+    <div class="row">
+        <div id="entertainment">
+            <div class="bg-info text-center p-1">
+                <h3>ENTERTAINMENT</h3>
+            </div><br><br>
+            {{ macro.displaySourceList(entertainment)}}
+        </div>
+    </div>
+    <div class="row">
+     
+        <div id="business">
+            <div class="bg-info text-center p-1">
+                <h3>BUSINESS</h3>
+            </div><br><br>
+            {{ macro.displaySourceList(business)}}
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+<div class="bg-secondary">
+    {% block footer %}
+        <footer class="text-center text-light fs-1 pt-4 pb-4">&copy; 2022 International News</footer>
+    {% endblock footer %}
+</div>
+
+{%endblock%}
+
