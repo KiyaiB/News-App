@@ -11,3 +11,5 @@ News App is a web appliction that displays a list of news sources from around th
     .Flask 1.1.2
     .Python 3
     .Terminal 
+
+# Setup/Installation
