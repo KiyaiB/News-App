@@ -16,13 +16,10 @@
 		{% for article in article_row %}
 		<div class="col-md-6 article">
 			<div class="thumbnail">
-				<a href="{{article.url}}" target="_blank">
-					<img src="{{article.image}}" alt="{{article.title}}" class="img-responsive" styles="height:30px">
-				</a>
+				<!-- <a href="{{article.url}}" target="_blank"></a> -->
 				<div class="caption">
 					<h3>{{article.title}}</h3>
 					<p>{{article.description}}</p>
-					<a href="{{article.url}}" target="_blank"><button class="btn btn-success">Go to articles page</button></a>
 				</div>
 				<div class="footer">
 					<p>Published on: {{article.date}}</p>
