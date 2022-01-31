@@ -24,3 +24,9 @@ Clone the repo
 
 # Technologies Used
 
+Python
+
+Flask Framework
+
+
+
