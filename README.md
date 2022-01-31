@@ -19,3 +19,5 @@ Clone the repo
          git clone https://github.com/KiyaiB/News-App.git
 
          -Navigate to the cloned repo
+
+         -Open it in your desired editor.
