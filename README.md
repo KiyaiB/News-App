@@ -17,3 +17,5 @@ News App is a web application that displays a list of news sources from around t
 Clone the repo
   
          git clone https://github.com/KiyaiB/News-App.git
+
+         -Navigate to the cloned repo
