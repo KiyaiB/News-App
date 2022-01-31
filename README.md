@@ -21,3 +21,6 @@ Clone the repo
          -Navigate to the cloned repo
 
          -Open it in your desired editor.
+
+# Technologies Used
+
