@@ -50,7 +50,7 @@ No known bugs
 
 Email
  
-     `babrakiyai080@gmail.com` 
+     babrakiyai080@gmail.com
 
 # License
  
