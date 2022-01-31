@@ -52,4 +52,8 @@ Email
  
      `babrakiyai080@gmail.com` 
 
+# License
+ 
+*License under the [MIT LICENSE](LICENSE.txt)* copyright (c) 2022
+*Kiyai.Babra*
 
